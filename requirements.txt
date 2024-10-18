@@ -1,5 +1,5 @@
-streamlit as st
+streamlit 
 rispy
-pandas as pd
+pandas 
 scikit-learn
 plotly
