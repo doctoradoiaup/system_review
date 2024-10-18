@@ -1,5 +1,5 @@
 streamlit as st
 rispy
 pandas as pd
-sklearn
+scikit-learn
 plotly
