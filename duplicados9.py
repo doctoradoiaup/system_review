@@ -179,3 +179,11 @@ if uploaded_files:
                 st.write("No se encontraron registros que cumplan con los criterios establecidos.")
         else:
             st.write("No se encontraron registros con alta coherencia entre Título y Resumen.")
+
+
+
+# Información adicional
+st.sidebar.header("Información Adicional")
+st.sidebar.write("Nombre: Javier Horacio Pérez Ricárdez")
+st.sidebar.write("Catedrático: Jorge Eduardo Brieva Rico")
+st.sidebar.write("Fecha: 20 de octubre del 2024")
