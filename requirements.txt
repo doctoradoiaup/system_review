@@ -1,1 +1,5 @@
-
+streamlit as st
+rispy
+pandas as pd
+sklearn
+plotly
