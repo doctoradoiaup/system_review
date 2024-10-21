@@ -224,5 +224,5 @@ if uploaded_files:
 # Información adicional
 st.sidebar.header("Seminario de Investigación I")
 st.sidebar.write("Nombre: Javier Horacio Pérez Ricárdez")
-st.sidebar.write("Catedrático: Jorge Eduardo Brieva Rico")
+st.sidebar.write("Catedrático: Dr. Jorge Eduardo Brieva Rico")
 st.sidebar.write("Fecha: 20 de octubre del 2024")
