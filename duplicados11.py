@@ -213,3 +213,14 @@ if uploaded_files:
 
                     filtered_csv = filtered_df.to_csv(index=False)
                     st.download_button("Descargar CSV filtrado", filtered_csv, "filtered_data.csv", "text/csv")
+
+
+
+
+
+# Información adicional
+st.sidebar.header("Seminario de Investigación I")
+st.sidebar.write("Nombre: Javier Horacio Pérez Ricárdez")
+st.sidebar.write("Catedrático: Jorge Eduardo Brieva Rico")
+st.sidebar.write("Fecha: 20 de octubre del 2024")
+
