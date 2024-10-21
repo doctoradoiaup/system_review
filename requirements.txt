@@ -3,3 +3,4 @@ rispy
 pandas 
 scikit-learn
 plotly
+bibtexparser
