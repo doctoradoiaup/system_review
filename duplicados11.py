@@ -101,7 +101,10 @@ def apply_selection_criteria(df):
     return date_filter
 
 # Interfaz en Streamlit
-st.title("Cargar y Analizar Archivos .ris y .bib")
+#st.title("Cargar y Analizar Archivos .ris y .bib")
+
+st.title("Revisión Sistemática en Optimización de Portafolios utilizando Inteligencia Artificial")
+st.subheader("Cargar y Analizar Archivos .ris y .bib")
 
 uploaded_files = st.file_uploader("Cargar archivos .ris o .bib", accept_multiple_files=True, type=["ris", "bib"])
 
