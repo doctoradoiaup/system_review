@@ -218,3 +218,11 @@ if uploaded_files:
                     fig_year.update_traces(marker=dict(line=dict(color='black', width=1.5)))  # Add border color and width
 
                     st.plotly_chart(fig_year)
+
+
+
+# Información adicional
+st.sidebar.header("Seminario de Investigación I")
+st.sidebar.write("Nombre: Javier Horacio Pérez Ricárdez")
+st.sidebar.write("Catedrático: Jorge Eduardo Brieva Rico")
+st.sidebar.write("Fecha: 20 de octubre del 2024")
