@@ -35,19 +35,6 @@ background-size: 105px 105px;
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-# Título en rojo utilizando HTML
-st.markdown(
-    """
-    <h1 style='color: white;'>Simulación de Sorteo por Folios</h1>
-    """,
-    unsafe_allow_html=True
-)
-
-
-
-
-
-
 
 # Función para filtrar registros que contienen Título, Resumen y Fecha
 def filter_records(records):
