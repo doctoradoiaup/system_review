@@ -138,7 +138,7 @@ with open(pdf_file_path, "rb") as pdf_file:
 pdf_file_path = "Reporte.pdf"  # Ruta del archivo PDF
 with open(pdf_file_path, "rb") as pdf_file:
     st.sidebar.download_button(
-        label="Descargar Reporte PDF",
+        label="Descargar System Reiview en pdf",
         data=pdf_file,
         file_name="sysrev1_tex.pdf",
         mime="application/pdf"
