@@ -135,7 +135,7 @@ with open(pdf_file_path, "rb") as pdf_file:
 
 
 # Botón de descarga del PDF
-pdf_file_path = "Reporte.pdf"  # Ruta del archivo PDF
+pdf_file_path = "sysrev1_tex.pdf"  # Ruta del archivo PDF
 with open(pdf_file_path, "rb") as pdf_file:
     st.sidebar.download_button(
         label="Descargar System Reiview en pdf",
