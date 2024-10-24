@@ -18,18 +18,12 @@ page_bg_img = """
 <style>
 [data-testid="stAppViewContainer"]{
 background:
-      conic-gradient(at 10% 50%,#0000 75%,#141548 0),
-      conic-gradient(at 10% 50%,#0000 75%,#141548 0) calc(1*21px) calc(3*21px),
-      conic-gradient(at 10% 50%,#0000 75%,#141548 0) calc(2*21px) calc(1*21px),
-      conic-gradient(at 10% 50%,#0000 75%,#141548 0) calc(3*21px) calc(4*21px),
-      conic-gradient(at 10% 50%,#0000 75%,#141548 0) calc(4*21px) calc(2*21px),
-      conic-gradient(at 50% 10%,#0000 75%,#141548 0) 0 calc(4*21px),
-      conic-gradient(at 50% 10%,#0000 75%,#141548 0) calc(1*21px) calc(2*21px),
-      conic-gradient(at 50% 10%,#0000 75%,#141548 0) calc(2*21px) 0,
-      conic-gradient(at 50% 10%,#0000 75%,#141548 0) calc(3*21px) calc(3*21px),
-      conic-gradient(at 50% 10%,#0000 75%,#141548 0) calc(4*21px) calc(1*21px),
-      #010709;
-background-size: 105px 105px;
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
 </sytle>
 """
 
