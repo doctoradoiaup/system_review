@@ -13,6 +13,42 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import plotly.express as px
 
+
+page_bg_img = """
+<style>
+[data-testid="stAppViewContainer"]{
+background:
+      conic-gradient(at 10% 50%,#0000 75%,#141548 0),
+      conic-gradient(at 10% 50%,#0000 75%,#141548 0) calc(1*21px) calc(3*21px),
+      conic-gradient(at 10% 50%,#0000 75%,#141548 0) calc(2*21px) calc(1*21px),
+      conic-gradient(at 10% 50%,#0000 75%,#141548 0) calc(3*21px) calc(4*21px),
+      conic-gradient(at 10% 50%,#0000 75%,#141548 0) calc(4*21px) calc(2*21px),
+      conic-gradient(at 50% 10%,#0000 75%,#141548 0) 0 calc(4*21px),
+      conic-gradient(at 50% 10%,#0000 75%,#141548 0) calc(1*21px) calc(2*21px),
+      conic-gradient(at 50% 10%,#0000 75%,#141548 0) calc(2*21px) 0,
+      conic-gradient(at 50% 10%,#0000 75%,#141548 0) calc(3*21px) calc(3*21px),
+      conic-gradient(at 50% 10%,#0000 75%,#141548 0) calc(4*21px) calc(1*21px),
+      #010709;
+background-size: 105px 105px;
+</sytle>
+"""
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
+# Título en rojo utilizando HTML
+st.markdown(
+    """
+    <h1 style='color: white;'>Simulación de Sorteo por Folios</h1>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
+
+
+
+
 # Función para filtrar registros que contienen Título, Resumen y Fecha
 def filter_records(records):
     valid_records = []
