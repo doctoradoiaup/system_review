@@ -114,7 +114,7 @@ def check_similarity(df, threshold=0.2):
 # Función para aplicar criterios de selección
 def apply_selection_criteria(df):
     keyword_filter = df[df['Resumen'].str.contains('portfolio', case=False) | df['Resumen'].str.contains('optimization', case=False)]
-    date_filter = keyword_filter[(keyword_filter['Fecha'] >= 2017) & (keyword_filter['Fecha'] <= 2024)]
+    date_filter = keyword_filter[(keyword_filter['Fecha'] >= 2019) & (keyword_filter['Fecha'] <= 2024)]
     return date_filter
 
 # Interfaz en Streamlit
