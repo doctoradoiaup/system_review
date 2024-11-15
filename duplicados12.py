@@ -203,7 +203,7 @@ if uploaded_files:
             
             st.write("Criterios de selección utilizados:")
             st.write("- Los resúmenes deben contener las palabras clave 'portfolio' u 'optimization'.")
-            st.write("- La fecha debe estar entre 2017 y 2024.")
+            st.write("- La fecha debe estar entre 2019 y 2024.")
             
             selected_df = apply_selection_criteria(coherent_df)
             st.write(f"Registros que cumplen con los criterios: {selected_df.shape[0]}")
